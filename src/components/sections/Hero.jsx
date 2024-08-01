@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImage.jpg";
+import HeroImg from "../../images/profile-pic1.png";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -166,7 +166,7 @@ const ResumeButton = styled.a`
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;
     box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
+    
     }    
     
     
